@@ -14,7 +14,7 @@
             android:layout_height="wrap_content">
 
         <TextView
-                android:id="@+id/tvDefinition"
+                android:id="@+id/definitionTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -29,40 +29,40 @@
                 tools:text="Definition" />
 
         <androidx.appcompat.widget.AppCompatImageView
-                android:id="@+id/ivThumbsUp"
+                android:id="@+id/thumbsUp"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                app:layout_constraintLeft_toLeftOf="@id/tvDefinition"
-                app:layout_constraintTop_toBottomOf="@id/tvDefinition"
+                app:layout_constraintLeft_toLeftOf="@id/definitionTextView"
+                app:layout_constraintTop_toBottomOf="@id/definitionTextView"
                 app:srcCompat="@drawable/ic_thumb_up" />
 
         <TextView
 
-                android:id="@+id/tvUpVote"
+                android:id="@+id/upVoteTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                app:layout_constraintLeft_toRightOf="@id/ivThumbsUp"
-                app:layout_constraintTop_toBottomOf="@id/tvDefinition"
+                app:layout_constraintLeft_toRightOf="@id/thumbsUp"
+                app:layout_constraintTop_toBottomOf="@id/definitionTextView"
                 tools:text="0" />
 
         <androidx.appcompat.widget.AppCompatImageView
-                android:id="@+id/ivThumbsDown"
+                android:id="@+id/thumbsDown"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="16dp"
-                app:layout_constraintLeft_toRightOf="@id/tvUpVote"
-                app:layout_constraintTop_toBottomOf="@id/tvDefinition"
+                app:layout_constraintLeft_toRightOf="@id/upVoteTextView"
+                app:layout_constraintTop_toBottomOf="@id/definitionTextView"
                 app:srcCompat="@drawable/ic_thumb_down" />
 
         <TextView
 
-                android:id="@+id/tvDownVote"
+                android:id="@+id/downVoteTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                app:layout_constraintLeft_toRightOf="@id/ivThumbsDown"
-                app:layout_constraintTop_toBottomOf="@id/tvDefinition"
+                app:layout_constraintLeft_toRightOf="@id/thumbsDown"
+                app:layout_constraintTop_toBottomOf="@id/definitionTextView"
                 tools:text="0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
