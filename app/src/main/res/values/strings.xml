@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Urban Dictionary Search</string>
+    <string name="placeholder_message">Placeholder Message</string>
+    <string name="retry">Retry</string>
+    <string name="no_definition_found">No definition found</string>
+    <string name="refresh">Refresh</string>
+    <string name="okay">OKAY</string>
+    <string name="search">Search</string>
+    <string name="sort_by_upvote">Sort By Upvotes</string>
+    <string name="sort_by_downvotes">Sort by Downvotes</string>
+</resources>
